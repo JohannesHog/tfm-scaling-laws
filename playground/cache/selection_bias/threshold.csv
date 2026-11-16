@@ -1,0 +1,11 @@
+metric,threshold,smallest_n_below_threshold,median_mae_at_that_n,note,basis
+roc_auc,0.01,8.0,0.008982025396128666,smallest n whose median MAE of the law curve vs honest_20 is below the threshold,law
+nll,0.02,3.0,0.014865230609933411,smallest n whose median MAE of the law curve vs honest_20 is below the threshold,law
+roc_auc,0.01,8.0,0.00889492363163387,smallest n whose median MAE of the raw curve vs honest_20 is below the threshold,raw
+nll,0.02,3.0,0.016788374752522248,smallest n whose median MAE of the raw curve vs honest_20 is below the threshold,raw
+roc_auc,0.004683071709487741,,,"smallest n whose median optimism of the in-sample front is below the law resolution (MAE, threshold column)",optimism_vs_law_resolution
+nll,0.00779556225883859,16.0,0.0063753776324346175,"smallest n whose median optimism of the in-sample front is below the law resolution (MAE, threshold column)",optimism_vs_law_resolution
+roc_auc,0.004745707170622421,12.0,-0.00034325316387389667,smallest n whose median optimism is below the median per-study residual (threshold),optimism_study_vs_residual_study
+roc_auc,,,,smallest n whose median optimism is below the median per-study residual (threshold),optimism_pooled_vs_residual_study
+nll,0.008703219708059293,12.0,0.006933076234159503,smallest n whose median optimism is below the median per-study residual (threshold),optimism_study_vs_residual_study
+nll,0.010856380801100608,8.0,0.010171962748873026,smallest n whose median optimism is below the median per-study residual (threshold),optimism_pooled_vs_residual_study

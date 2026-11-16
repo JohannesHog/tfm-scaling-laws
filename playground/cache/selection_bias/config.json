@@ -1,0 +1,26 @@
+{
+  "n_reps": 20,
+  "n_train": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    12,
+    16,
+    20
+  ],
+  "base_seed": 0,
+  "metrics": [
+    "roc_auc",
+    "nll"
+  ],
+  "flops_min": 95000000000.0,
+  "flops_max": 1.05e+16,
+  "error_threshold": {
+    "roc_auc": 0.01,
+    "nll": 0.02
+  },
+  "mode": "transfer",
+  "honest_curve": "carried"
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# the scaling-law dump is downloaded from figshare (python download_data.py), nothing in data/ is tracked
+data/*
+

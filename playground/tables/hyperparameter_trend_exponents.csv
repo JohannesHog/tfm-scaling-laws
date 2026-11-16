@@ -1,0 +1,61 @@
+quantity,label,metric,exponent,std_err,r2,group
+config/lr,Learning rate,real_data/nll,-0.11838248516120124,0.016332322196361382,0.7555316863670839,searched
+config/effective_batch_size,Batch size,real_data/nll,0.07026439547103952,0.016800713252076768,0.5071181150355198,searched
+config/model_config.embedding_size,Embedding size,real_data/nll,0.08691609467145431,0.01495829619190115,0.6651079136700425,searched
+config/model_config.num_layers,Layers,real_data/nll,0.09984253285622693,0.02328636629820027,0.5195498031717675,searched
+config/model_config.num_attention_heads,Attention heads,real_data/nll,0.08219971744152745,0.014229996984749051,0.6624845578142227,searched
+config/max_features,Max. features,real_data/nll,0.1164656418088467,0.03333225186253859,0.4179799018008493,searched
+config/num_datapoints_max,Max. datapoints,real_data/nll,0.1863568972548985,0.018264565146547777,0.8596261334106404,searched
+config/lr,Learning rate,real_data/roc_auc,-0.1450580471921772,0.021190961327486473,0.72246997591876,searched
+config/effective_batch_size,Batch size,real_data/roc_auc,0.00814818033362748,0.01055383005295152,0.03205381875627041,searched
+config/model_config.embedding_size,Embedding size,real_data/roc_auc,0.03168736796504575,0.017365066802681864,0.15611061552550817,searched
+config/model_config.num_layers,Layers,real_data/roc_auc,0.14497666512546728,0.015243568746127457,0.8340294645513752,searched
+config/model_config.num_attention_heads,Attention heads,real_data/roc_auc,0.06156402918876726,0.019257537518610538,0.3621553884741871,searched
+config/max_features,Max. features,real_data/roc_auc,0.19284026789901262,0.018064264018937105,0.8635956981033786,searched
+config/num_datapoints_max,Max. datapoints,real_data/roc_auc,0.22458073486248592,0.02298586563555952,0.8413543464983945,searched
+config/lr,Learning rate,val/val_loss,-0.18402967292767086,0.02942491509273991,0.6848473253645473,searched
+config/effective_batch_size,Batch size,val/val_loss,0.07796598466279916,0.016936106116413913,0.5407290344398862,searched
+config/model_config.embedding_size,Embedding size,val/val_loss,0.11519106765641561,0.01697868722329827,0.7188763839142771,searched
+config/model_config.num_layers,Layers,val/val_loss,0.1971301490710438,0.017785653185010863,0.8722022401702036,searched
+config/model_config.num_attention_heads,Attention heads,val/val_loss,0.07796598466338088,0.015412705794570877,0.5870513577139025,searched
+config/max_features,Max. features,val/val_loss,0.12514783050849693,0.03367882157107789,0.434105814612216,searched
+config/num_datapoints_max,Max. datapoints,val/val_loss,0.1939525624418398,0.017003198189105513,0.8784734089406733,searched
+config/lr,Learning rate,val/small/val_loss,-0.14472961574702037,0.017876167342513537,0.7845575356372209,searched
+config/effective_batch_size,Batch size,val/small/val_loss,0.08419786344937079,0.014343494903760084,0.6568694463490153,searched
+config/model_config.embedding_size,Embedding size,val/small/val_loss,0.1330869454515696,0.014035410776146704,0.8331983805659802,searched
+config/model_config.num_layers,Layers,val/small/val_loss,0.158303424729359,0.01883653981028483,0.7969044559684998,searched
+config/model_config.num_attention_heads,Attention heads,val/small/val_loss,0.07242826963422849,0.014741174514440392,0.5728607232475077,searched
+config/max_features,Max. features,val/small/val_loss,0.083292510077481,0.029156189635054244,0.31195636148377515,searched
+config/num_datapoints_max,Max. datapoints,val/small/val_loss,0.1611528999359288,0.015906073636461047,0.8508055854057345,searched
+config/lr,Learning rate,val/medium/val_loss,-0.18402967292737155,0.030358032460696568,0.6712182032341365,searched
+config/effective_batch_size,Batch size,val/medium/val_loss,0.06076427062506446,0.019627222193977764,0.3474645517810151,searched
+config/model_config.embedding_size,Embedding size,val/medium/val_loss,0.08621975980353862,0.01550604664175372,0.6320373149819135,searched
+config/model_config.num_layers,Layers,val/medium/val_loss,0.2215401499652794,0.016100389878692934,0.9131841968792324,searched
+config/model_config.num_attention_heads,Attention heads,val/medium/val_loss,0.08611416499642667,0.01420463532254537,0.6712489686791974,searched
+config/max_features,Max. features,val/medium/val_loss,0.12333712376772464,0.03404789745930273,0.42163493266423197,searched
+config/num_datapoints_max,Max. datapoints,val/medium/val_loss,0.21749175007325802,0.020621618346902126,0.8607184664527446,searched
+parameters,Parameters,real_data/nll,0.2522790343161931,0.02669298017898607,0.8401113667050152,derived
+total_cells,Training cells,real_data/nll,0.6744710650243703,0.02729669803314044,0.9729096256557331,derived
+prior_max_cells,Max. cells per table,real_data/nll,0.3028225390637453,0.040291676304115225,0.7686654247064072,derived
+embedding_layer_ratio,Embedding size / layers,real_data/nll,-0.012926438184772644,0.032534921249642794,0.009200156932141039,derived
+prior_datapoint_feature_ratio,Datapoints / features,real_data/nll,0.06989125544605186,0.03557875108888437,0.18500043194770682,derived
+parameters,Parameters,real_data/roc_auc,0.19228355081064136,0.0319858516233915,0.667518553098271,derived
+total_cells,Training cells,real_data/roc_auc,0.7096069819944645,0.03335354991198987,0.9617540971053432,derived
+prior_max_cells,Max. cells per table,real_data/roc_auc,0.41742100276149874,0.02399678688148354,0.9438520354845733,derived
+embedding_layer_ratio,Embedding size / layers,real_data/roc_auc,-0.1132892971604215,0.02618276478258283,0.509827463426968,derived
+prior_datapoint_feature_ratio,Datapoints / features,real_data/roc_auc,0.03174046696347333,0.03366733619531517,0.04705486214310308,derived
+parameters,Parameters,val/val_loss,0.38048321331247964,0.029739056932476686,0.9009290188566411,derived
+total_cells,Training cells,val/val_loss,0.5435219801763106,0.02955050635221975,0.9494810365862606,derived
+prior_max_cells,Max. cells per table,val/val_loss,0.3191003929503369,0.04171793381587772,0.7647279352938967,derived
+embedding_layer_ratio,Embedding size / layers,val/val_loss,-0.08193908141462815,0.028488786921090085,0.3148717202853527,derived
+prior_datapoint_feature_ratio,Datapoints / features,val/val_loss,0.0688047319333429,0.03326195334437012,0.19206385692002204,derived
+parameters,Parameters,val/small/val_loss,0.38311372170507696,0.025061681188530114,0.9284826695808748,derived
+total_cells,Training cells,val/small/val_loss,0.5701389436114942,0.026136760829251933,0.9635507001409866,derived
+prior_max_cells,Max. cells per table,val/small/val_loss,0.24444541001340991,0.036158765337792206,0.7174349486293032,derived
+embedding_layer_ratio,Embedding size / layers,val/small/val_loss,-0.025216479277789416,0.027135849122012577,0.04577821868464597,derived
+prior_datapoint_feature_ratio,Datapoints / features,val/small/val_loss,0.07786038985844788,0.02997860627804453,0.2725932478421755,derived
+parameters,Parameters,val/medium/val_loss,0.34761272971774776,0.02736954431765564,0.8996141351027824,derived
+total_cells,Training cells,val/medium/val_loss,0.5436256665087488,0.02834803212606975,0.9533377965394848,derived
+prior_max_cells,Max. cells per table,val/medium/val_loss,0.34082887384098276,0.039645508164324536,0.8041495597147789,derived
+embedding_layer_ratio,Embedding size / layers,val/medium/val_loss,-0.13532039016174077,0.025703055199070374,0.6062792932599222,derived
+prior_datapoint_feature_ratio,Datapoints / features,val/medium/val_loss,0.0941546263055335,0.039965667912365055,0.23567550661618553,derived

@@ -1,0 +1,11 @@
+Hyperparameter,Values
+Learning rate,"5e-05, 0.000144, 0.000416, 0.0012, 0.0021, 0.00347, 0.00572, 0.007, 0.01, 0.0347, 0.0707, 0.5"
+Weight decay,"0, 0.0001, 0.1"
+Batch size,"32, 64, 128"
+Embedding size,"8, 16, 32, 64"
+Layers,"1, 2, 4, 6, 8, 10"
+Attention heads,"2, 4"
+Max. features per table,"2, 4, 8, 16"
+Max. datapoints per table,"100, 200, 400, 800, 1200"
+Parameters N,"1,826 to 553,482 (20 distinct)"
+Max. cells per table,"200, 400, 800, 1600, 3200, 6400, 9600, 12800, 19200"
