@@ -50,3 +50,20 @@ Run the notebooks from `playground/` and the script from the repository root. Fi
 $L(C) = A C^{-\alpha} + L_0$ (`functional_form_L0`) and the forms of Appendix C.
 
 MIT license, see `LICENSE`.
+
+## Citation
+
+If you use this code or data, please cite our [paper](https://arxiv.org/abs/2611.24214):
+
+```bibtex
+@misc{hog2026reliable,
+  title         = {Towards Reliable Scaling Laws for Tabular Foundation Models},
+  author        = {Hog, Johannes and Mallik, Neeratyoy and Adriaensen, Steven and Metzen, Jan Hendrik and
+                   Viering, Tom and Stoll, Danny and Hutter, Frank},
+  year          = {2026},
+  eprint        = {2611.24214},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2611.24214}
+}
+```

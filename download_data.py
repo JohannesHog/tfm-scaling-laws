@@ -11,8 +11,8 @@ import urllib.request
 from pathlib import Path
 
 DOI = "https://doi.org/10.6084/m9.figshare.34912776"
-URL = "https://ndownloader.figshare.com/files/71080338"
-MD5 = "ddcdee8658c25a2a3286179a045ce31f"
+URL = "https://ndownloader.figshare.com/files/71926273"
+MD5 = "379d844036f94b5850bc6917695d5768"
 TARGET = Path(__file__).resolve().parent / "data" / "nanotabpfn_model_tabiclv1_prior.csv"
 CHUNK = 1 << 20
 
